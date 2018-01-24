@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#args=("$@")
+
+livestreamer --config ~/.config/livestreamer.config twitch.tv/$1 $2,"Source,1080p60,1080p,720o60,720,best"
+
